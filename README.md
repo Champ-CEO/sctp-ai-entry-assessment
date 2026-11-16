@@ -77,3 +77,25 @@ If you are unfamiliar with GitHub, these resources will help:
 - [GitHub Docs: Getting Started](https://docs.github.com/en/get-started)
 
 > The ability to self-learn is an important aspect of the SCTP course. Please go through the resources provided and familiarise yourself with the requirements to create the GitHub link for submission.
+
+---
+
+## Python Solutions
+
+All three questions are completed in Python and verified with **Python 3.11.8**. No external packages are required.
+
+| Script | Solution summary |
+|--------|------------------|
+| [Question 1](src/q1_python.py) | Converts between Celsius and Fahrenheit, validates numeric input and units, and rounds results to two decimal places. |
+| [Question 2](src/q2_python.py) | Stores inventory items in a list, uses a loop to prevent duplicates, and displays the inventory or an empty-inventory message. |
+| [Question 3](src/q3_python.py) | Formats capitalised names as `LastName, FirstName` and returns uppercase initials with periods. |
+
+Run the scripts from the repository's root folder:
+
+```powershell
+python src/q1_python.py
+python src/q2_python.py
+python src/q3_python.py
+```
+
+Each script prints the required example results. Brief `#` comments explain the key logic, and `.python-version` selects Python 3.11.8 when using pyenv.
